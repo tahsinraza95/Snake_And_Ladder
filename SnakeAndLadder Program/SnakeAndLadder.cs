@@ -8,5 +8,12 @@ namespace SnakeAndLadder_Program
 {
     internal class SnakeAndLadder
     {
+        public void Game()
+        {
+            int playerposition = 0;
+            Console.WriteLine("Plaer Starting Position :" + playerposition);
+            Console.ReadLine();
+        }
+
     }
 }
